@@ -133,6 +133,7 @@
             font-weight: 800;
             color: #111111; 
         }
+.imgmax { max-width: 100%; display: block;}
 .logo img { max-width: 100%; display: block;}
         nav ul {
             display: flex;
@@ -407,7 +408,7 @@
             border-radius: 8px;
             box-shadow: 0 4px 10px rgba(0,0,0,0.02);
         }
-.journey-card ul { display: inline-block; text-align: left;  color: #24acff;}
+.journey-card ul { display: inline-block; text-align: left;  color: #24acff; margin: 0; padding: 0;}
 .journey-card ul li { color: #24acff; display: inline-block; text-align: left; font-weight: 600;}
 
 
@@ -800,7 +801,7 @@
     color:#585858;
     font-size:28px;
     cursor:pointer;
-    padding:15px;
+    padding:0px 10px;
 }
 
 .navbar { width: 100%;}
@@ -898,7 +899,7 @@
 
 			
     .menu.active{
-        display:flex;  top: 90px; padding: 10px 0;
+        display:flex;  top: 62px; padding: 10px 0;
     }
 			
 			
